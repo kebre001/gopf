@@ -38,6 +38,11 @@ func (d Direction) String() string {
 
 	panic("unknown direction")
 }
+const (
+	Block Action = "PF_BLOCK"
+	Pass         = "PF_PASS"
+	Match        = "PF_MATCH"
+)
 
 const (
 	InOut Direction = iota
