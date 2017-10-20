@@ -40,12 +40,6 @@ func (d Direction) String() string {
 }
 
 const (
-	Block Action = PF_BLOCK
-	Pass         = PF_PASS
-	Match        = PF_MATCH
-)
-
-const (
 	InOut Direction = iota
 	In
 	Out
