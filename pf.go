@@ -11,9 +11,9 @@ import (
 type Action int
 
 const (
-	Block Action = "PF_BLOCK"
-	Pass         = "PF_PASS"
-	Match        = "PF_MATCH"
+	Block Action = 0
+	Pass         = 1
+	Match        = 2
 )
 
 func (a Action) String() string {
